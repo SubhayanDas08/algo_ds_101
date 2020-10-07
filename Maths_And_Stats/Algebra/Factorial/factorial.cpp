@@ -18,6 +18,8 @@ int num;
 cout<<"Enter the number of which want factorial: ";
 cin>>num;
 
-cout<<"The factorial is: "<<factorial(num);
+int fac = factorial(num);
+
+cout<<"The factorial is: "<<fac;
 return 0;
 }
